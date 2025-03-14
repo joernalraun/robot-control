@@ -32,4 +32,4 @@ Um dieses Repository in MakeCode zu bearbeiten.
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 
 
-> Diese Seite bei [https://galbatoriz.github.io/roboter/](https://galbatoriz.github.io/roboter/) öffnen
+> Diese Seite bei [https://zukunftswerkstatt-buchholz.github.io/roboter-steuerung/](https://zukunftswerkstatt-buchholz.github.io/roboter-steuerung/) öffnen
