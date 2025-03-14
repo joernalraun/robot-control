@@ -1,24 +1,35 @@
+Diese Erweiterung erweitert die vorhandene [MotionKit V2](https://github.com/tinysuperlab/MotionKitV2) Erweiterung um neue Blöcke. Mit diesen neuen Blöcken soll die Steuerung vereinfacht werden. Es gibt Blöcke, um den Roboter zu drehen oder eine bestimmte Strecke fahren zu lassen.
 
-> Open this page at [https://galbadev.github.io/roboter-steuerung/](https://galbadev.github.io/roboter-steuerung/)
+## Als Erweiterung verwenden
 
-## Use as Extension
+Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
-This repository can be added as an **extension** in MakeCode.
+* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
+* klicke auf **Neues Projekt**
+* klicke auf **Erweiterungen** unter dem Zahnrad-Menü
+* nach **Roboter** suchen und importieren
 
-* open [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/galbadev/roboter-steuerung** and import
+## Kalibrierung
 
-## Edit this project
+`Roboter.set_velocity(0)` Strecke[cm], die der Robotor in 1s zurücklegt
+`Roboter.set_angular_velocity(0)` Grandzahl[°], die der Robotor sich in 500ms dreht
 
-To edit this repository in MakeCode.
+## Nicht blockierendes Fahren
 
-* open [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/galbadev/roboter-steuerung** and click import
+Der Befehl `Roboter.drive_time_non_blocking bzw.` der Block `Für [ZEIT] ms [RICHTUNG] fahren, dabei das Programm weiterlaufen lassen` lässt das Programm nicht anhalten. Befehle nach diesem Block werden sofort ausgeführt.
+
+## Dieses Projekt bearbeiten
+
+Um dieses Repository in MakeCode zu bearbeiten.
+
+* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
+* klicke auf **Importieren** und dann auf **Importiere URL**
+* füge **https://github.com/galbatoriz/roboter** ein und klicke auf Importieren
 
 #### Metadata (used for search, rendering)
 
 * for PXT/calliopemini
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+
+> Diese Seite bei [https://galbatoriz.github.io/roboter/](https://galbatoriz.github.io/roboter/) öffnen
