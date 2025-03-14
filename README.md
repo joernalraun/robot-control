@@ -7,7 +7,7 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
-* nach **Roboter** suchen und importieren
+* nach **Roboter Steuerung** suchen und importieren
 
 ## Kalibrierung
 
@@ -24,7 +24,7 @@ Um dieses Repository in MakeCode zu bearbeiten.
 
 * öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
 * klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/galbatoriz/roboter** ein und klicke auf Importieren
+* füge **https://github.com/Zukunftswerkstatt-Buchholz/robot-control** ein und klicke auf Importieren
 
 #### Metadata (used for search, rendering)
 
