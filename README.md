@@ -11,8 +11,8 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
 ## Kalibrierung
 
-`Roboter.set_velocity(0)` Strecke[cm], die der Robotor in 1s zurücklegt
-`Roboter.set_angular_velocity(0)` Grandzahl[°], die der Robotor sich in 500ms dreht
+`Roboter.set_velocity(0)` Setze hier die Strecke[cm], die der Robotor in 1s zurücklegt
+`Roboter.set_angular_velocity(0)` Setze hier die Grandzahl[°], die der Robotor sich in 500ms dreht
 
 ## Nicht blockierendes Fahren
 
