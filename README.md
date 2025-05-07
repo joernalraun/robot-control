@@ -11,12 +11,12 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
 ## Kalibrierung
 
-`Roboter.set_velocity(0)` Setze hier die Strecke[cm], die der Robotor in 1s zurücklegt
-`Roboter.set_angular_velocity(0)` Setze hier die Grandzahl[°], die der Robotor sich in 500ms dreht
+`Roboter.set_velocity(0)` Gib hier die Strecke in Zentimetern an, die der Roboter in einer Sekunde zurücklegt.
+`Roboter.set_angular_velocity(0)` Gib hier den Winkel in Grad an, um den sich der Roboter innerhalb von 500 Millisekunden dreht.
 
 ## Nicht blockierendes Fahren
 
-Der Befehl `Roboter.drive_time_non_blocking bzw.` der Block `Für [ZEIT] ms [RICHTUNG] fahren, dabei das Programm weiterlaufen lassen` lässt das Programm nicht anhalten. Befehle nach diesem Block werden sofort ausgeführt.
+Der Befehl `Roboter.drive_time_non_blocking` bzw. der Block `Für [ZEIT] ms [RICHTUNG] fahren, dabei das Programm weiterlaufen lassen` sorgt dafür, dass das Programm während der Fahrt nicht angehalten wird. Nachfolgende Befehle werden sofort weiter ausgeführt.
 
 ## Dieses Projekt bearbeiten
 
