@@ -1,7 +1,7 @@
 {
     "name": "Roboter Steuerung",
     "version": "1.0.3",
-    "description": "",
+    "description": "Erweiterte Blöcke zur Stuerung des MotionKit2.",
     "dependencies": {
         "core": "*"
     },
